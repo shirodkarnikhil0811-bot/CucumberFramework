@@ -44,6 +44,7 @@ public class checkoutPageStepDefination {
 	@Then("the product name on the checkout page should match the landing page")
 	public void the_product_name_on_the_checkout_page_should_match_the_landing_page() {
 		Assert.assertEquals(testContextSetup.landingPageProductName, checkoutProductName);
+		System.out.println("This is great");
 	}
 	
 }
