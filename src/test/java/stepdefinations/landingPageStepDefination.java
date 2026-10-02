@@ -40,6 +40,7 @@ public landingPageStepDefination(TestContextSetup testContextSetup)
 		Thread.sleep(2000);
 		testContextSetup.landingPageProductName = landingpage.extractProductName();
 		System.out.println(testContextSetup.landingPageProductName+" is extracted from home page");	
+		System.out.println("Goto next steps");
 	}
 	
 
